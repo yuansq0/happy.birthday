@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生日快乐！</title>
+    <style>
+        /* 这里的 CSS 代码定义了页面的样式 */
+        body {
+            font-family: 'Arial', sans-serif; /* 设置字体 */
+            background-color: #f4f4f9; /* 设置页面背景颜色为浅灰色 */
+            color: #333; /* 设置文字颜色为深灰色 */
+            margin: 0; /* 移除默认外边距 */
+            display: flex;
+            justify-content: center; /* 水平居中内容 */
+            align-items: center; /* 垂直居中内容 */
+            min-height: 100vh; /* 设置最小高度为视口高度，确保垂直居中 */
+            text-align: center; /* 确保内部文本居中 */
+        }
+
+        .container {
+            background-color: #ffffff; /* 内容区域背景为白色 */
+            padding: 40px; /* 内边距 */
+            border-radius: 15px; /* 圆角边框 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
+            max-width: 80%; /* 最大宽度 */
+            animation: fadeIn 2s ease-in-out; /* 添加淡入动画 */
+        }
+
+        h1 {
+            color: #ff6347; /* 标题颜色（番茄红） */
+            font-size: 3em; /* 标题字体大小 */
+            margin-bottom: 20px;
+            animation: pulse 1s infinite alternate; /* 添加心跳动画 */
+        }
+
+        p {
+            font-size: 1.5em; /* 段落字体大小 */
+            color: #4682b4; /* 段落颜色（钢青色） */
+        }
+
+        /* CSS 动画定义 */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes pulse {
+            from { transform: scale(1); }
+            to { transform: scale(1.05); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>生日快乐！🎉🎂</h1>
+        
+        <p>祝你度过美好的一天，🎂</p>
+        <p>所有愿望都能实现！✨</p>
+        <p>Happy Birthday!</p>
+    </div>
+
+</body>
+</html>
